@@ -1,0 +1,90 @@
+<svg width="800" height="600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="800" height="600" fill="#3498db" />
+  
+  <!-- Header -->
+  <rect width="800" height="60" fill="#2980b9" />
+  <text x="30" y="38" font-family="Arial" font-size="24" fill="white" font-weight="bold">BillWell Dashboard</text>
+  
+  <!-- Sidebar -->
+  <rect x="0" y="60" width="200" height="540" fill="#2980b9" />
+  
+  <!-- Sidebar menu items -->
+  <rect x="20" y="100" width="160" height="40" rx="5" fill="#3498db" />
+  <text x="50" y="125" font-family="Arial" font-size="16" fill="white">Dashboard</text>
+  
+  <rect x="20" y="150" width="160" height="40" rx="5" fill="#2980b9" />
+  <text x="50" y="175" font-family="Arial" font-size="16" fill="white">Products</text>
+  
+  <rect x="20" y="200" width="160" height="40" rx="5" fill="#2980b9" />
+  <text x="50" y="225" font-family="Arial" font-size="16" fill="white">Invoices</text>
+  
+  <rect x="20" y="250" width="160" height="40" rx="5" fill="#2980b9" />
+  <text x="50" y="275" font-family="Arial" font-size="16" fill="white">Expenses</text>
+  
+  <rect x="20" y="300" width="160" height="40" rx="5" fill="#2980b9" />
+  <text x="50" y="325" font-family="Arial" font-size="16" fill="white">Reports</text>
+  
+  <!-- Main content area -->
+  <rect x="200" y="60" width="600" height="540" fill="#ecf0f1" />
+  
+  <!-- Stats cards -->
+  <rect x="230" y="90" width="160" height="100" rx="5" fill="white" />
+  <text x="250" y="120" font-family="Arial" font-size="14" fill="#7f8c8d">Total Sales</text>
+  <text x="250" y="150" font-family="Arial" font-size="24" fill="#2c3e50" font-weight="bold">$24,500</text>
+  
+  <rect x="410" y="90" width="160" height="100" rx="5" fill="white" />
+  <text x="430" y="120" font-family="Arial" font-size="14" fill="#7f8c8d">Pending Orders</text>
+  <text x="430" y="150" font-family="Arial" font-size="24" fill="#2c3e50" font-weight="bold">12</text>
+  
+  <rect x="590" y="90" width="160" height="100" rx="5" fill="white" />
+  <text x="610" y="120" font-family="Arial" font-size="14" fill="#7f8c8d">Total Revenue</text>
+  <text x="610" y="150" font-family="Arial" font-size="24" fill="#2c3e50" font-weight="bold">$18,200</text>
+  
+  <!-- Chart -->
+  <rect x="230" y="210" width="330" height="200" rx="5" fill="white" />
+  <text x="250" y="240" font-family="Arial" font-size="16" fill="#2c3e50" font-weight="bold">Monthly Sales</text>
+  
+  <!-- Bar chart -->
+  <rect x="250" y="350" width="30" height="30" fill="#3498db" />
+  <rect x="290" y="330" width="30" height="50" fill="#3498db" />
+  <rect x="330" y="310" width="30" height="70" fill="#3498db" />
+  <rect x="370" y="280" width="30" height="100" fill="#3498db" />
+  <rect x="410" y="300" width="30" height="80" fill="#3498db" />
+  <rect x="450" y="320" width="30" height="60" fill="#3498db" />
+  
+  <!-- Line for x-axis -->
+  <line x1="250" y1="380" x2="480" y2="380" stroke="#bdc3c7" stroke-width="2" />
+  
+  <!-- Recent orders -->
+  <rect x="580" y="210" width="170" height="200" rx="5" fill="white" />
+  <text x="600" y="240" font-family="Arial" font-size="16" fill="#2c3e50" font-weight="bold">Recent Orders</text>
+  
+  <rect x="600" y="260" width="130" height="1" fill="#ecf0f1" />
+  <text x="600" y="280" font-family="Arial" font-size="12" fill="#7f8c8d">Order #1234</text>
+  <text x="600" y="295" font-family="Arial" font-size="12" fill="#2c3e50">$1,200</text>
+  
+  <rect x="600" y="310" width="130" height="1" fill="#ecf0f1" />
+  <text x="600" y="330" font-family="Arial" font-size="12" fill="#7f8c8d">Order #1235</text>
+  <text x="600" y="345" font-family="Arial" font-size="12" fill="#2c3e50">$850</text>
+  
+  <rect x="600" y="360" width="130" height="1" fill="#ecf0f1" />
+  <text x="600" y="380" font-family="Arial" font-size="12" fill="#7f8c8d">Order #1236</text>
+  <text x="600" y="395" font-family="Arial" font-size="12" fill="#2c3e50">$2,400</text>
+  
+  <!-- Bottom section -->
+  <rect x="230" y="430" width="520" height="150" rx="5" fill="white" />
+  <text x="250" y="460" font-family="Arial" font-size="16" fill="#2c3e50" font-weight="bold">Recent Activity</text>
+  
+  <rect x="250" y="480" width="480" height="1" fill="#ecf0f1" />
+  <text x="250" y="500" font-family="Arial" font-size="12" fill="#7f8c8d">New invoice created</text>
+  <text x="450" y="500" font-family="Arial" font-size="12" fill="#7f8c8d">2 hours ago</text>
+  
+  <rect x="250" y="520" width="480" height="1" fill="#ecf0f1" />
+  <text x="250" y="540" font-family="Arial" font-size="12" fill="#7f8c8d">Payment received</text>
+  <text x="450" y="540" font-family="Arial" font-size="12" fill="#7f8c8d">5 hours ago</text>
+  
+  <rect x="250" y="560" width="480" height="1" fill="#ecf0f1" />
+  <text x="250" y="580" font-family="Arial" font-size="12" fill="#7f8c8d">New product added</text>
+  <text x="450" y="580" font-family="Arial" font-size="12" fill="#7f8c8d">Yesterday</text>
+</svg>

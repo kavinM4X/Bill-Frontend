@@ -1,0 +1,51 @@
+.admin-container {
+  padding: 20px;
+  min-height: 100vh;
+  background-color: var(--background-color);
+}
+
+.admin-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.admin-card {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: var(--shadow);
+}
+
+.admin-card h2 {
+  color: var(--primary-color);
+  margin-bottom: 20px;
+}
+
+.admin-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.admin-card li {
+  padding: 10px 0;
+  border-bottom: 1px solid var(--border-color);
+  color: var(--text-color);
+  cursor: pointer;
+  transition: color 0.3s;
+}
+
+.admin-card li:last-child {
+  border-bottom: none;
+}
+
+.admin-card li:hover {
+  color: var(--secondary-color);
+}
+
+@media (max-width: 768px) {
+  .admin-grid {
+    grid-template-columns: 1fr;
+  }
+} 

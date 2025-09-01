@@ -1,0 +1,47 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="100%" height="100%">
+  <!-- Background elements -->
+  <circle cx="250" cy="250" r="200" fill="#f0f4f8" opacity="0.5"/>
+  <circle cx="150" cy="350" r="100" fill="#e1e8ed" opacity="0.3"/>
+  
+  <!-- Login form illustration -->
+  <rect x="150" y="100" width="200" height="300" rx="15" fill="#ffffff" stroke="#3498db" stroke-width="3"/>
+  
+  <!-- Form header -->
+  <rect x="170" y="130" width="160" height="30" rx="5" fill="#3498db" opacity="0.2"/>
+  
+  <!-- Form fields -->
+  <rect x="170" y="180" width="160" height="40" rx="5" fill="#f5f5f5" stroke="#ddd" stroke-width="1"/>
+  <rect x="180" y="190" width="20" height="20" rx="2" fill="#3498db" opacity="0.3"/>
+  
+  <rect x="170" y="240" width="160" height="40" rx="5" fill="#f5f5f5" stroke="#ddd" stroke-width="1"/>
+  <rect x="180" y="250" width="20" height="20" rx="2" fill="#3498db" opacity="0.3"/>
+  
+  <!-- Login button -->
+  <rect x="170" y="300" width="160" height="40" rx="5" fill="#e74c3c"/>
+  <text x="250" y="325" font-family="Arial" font-size="16" fill="white" text-anchor="middle">Sign In</text>
+  
+  <!-- Decorative elements -->
+  <circle cx="320" cy="120" r="10" fill="#3498db"/>
+  <circle cx="180" cy="120" r="10" fill="#e74c3c"/>
+  
+  <!-- Lock icon -->
+  <circle cx="250" cy="70" r="30" fill="#ffffff" stroke="#3498db" stroke-width="2"/>
+  <rect x="240" y="60" width="20" height="30" rx="5" fill="#ffffff" stroke="#3498db" stroke-width="2"/>
+  <circle cx="250" cy="75" r="5" fill="#3498db"/>
+  <rect x="248" y="75" width="4" height="10" fill="#3498db"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="120" cy="120" r="15" fill="#3498db" opacity="0.3"/>
+  <circle cx="400" cy="400" r="20" fill="#e74c3c" opacity="0.3"/>
+  <circle cx="150" cy="400" r="10" fill="#f1c40f" opacity="0.3"/>
+  <circle cx="380" cy="120" r="12" fill="#2ecc71" opacity="0.3"/>
+  
+  <!-- Connecting lines -->
+  <path d="M150,200 C100,220 80,250 100,300" stroke="#3498db" stroke-width="2" fill="none" opacity="0.5"/>
+  <path d="M380,300 C420,280 430,250 400,200" stroke="#e74c3c" stroke-width="2" fill="none" opacity="0.5"/>
+  
+  <!-- User silhouette -->
+  <circle cx="400" cy="150" r="30" fill="#ffffff" stroke="#3498db" stroke-width="2"/>
+  <circle cx="400" cy="140" r="10" fill="#3498db"/>
+  <path d="M380,170 C380,155 420,155 420,170 C420,185 380,185 380,170" fill="#3498db"/>
+</svg>
